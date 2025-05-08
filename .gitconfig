@@ -1,0 +1,27 @@
+[user]
+    email = wrnlb666@gmail.com
+    name = wrnlb666
+	signingkey = /home/wrnlb/.ssh/id_ed25519.pub
+[init]
+    defaultBranch = main
+[https]
+    ; proxy = https://gh-proxy.com
+[diff]
+    tool = nvimdiff
+    guitool = nvimdiff
+[merge]
+    tool = nvimdiff
+    conflictstyle = diff3
+[mergetool]
+    keepBackup = false
+    trustExitCode = false
+    prompt = false
+[difftool]
+    prompt = false
+[core]
+    editor = nvim
+    pager = bat
+[mergetool "vimdiff"]
+    layout = LOCAL,MERGED,REMOTE
+[gpg]
+	format = ssh
