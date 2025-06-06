@@ -25,3 +25,5 @@
     layout = LOCAL,MERGED,REMOTE
 [gpg]
 	format = ssh
+[commit]
+	gpgsign = true
