@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-ln -sf $(pwd)/.gitconfig ~/
+ln -sf $(pwd)/gitconfig ~/.gitconfig
