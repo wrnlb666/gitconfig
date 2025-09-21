@@ -20,7 +20,7 @@
     prompt = false
 [core]
     editor = nvim
-    pager = bat
+    pager = bat -p --color=always
 [mergetool "vimdiff"]
     layout = LOCAL,MERGED,REMOTE
 [gpg]
