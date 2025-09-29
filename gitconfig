@@ -8,7 +8,6 @@
     ; proxy = https://gh-proxy.com
 [diff]
     tool = nvimdiff
-    guitool = nvimdiff
 [merge]
     tool = nvimdiff
     conflictstyle = diff3
