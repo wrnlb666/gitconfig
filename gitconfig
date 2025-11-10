@@ -33,3 +33,6 @@
 	br = branch
 	ci = commit
 	st = status
+[push]
+	protectedBranches = master main
+	forceWithLease = true
