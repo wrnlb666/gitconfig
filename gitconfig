@@ -10,6 +10,10 @@
     ; proxy = https://gh-proxy.com
 [diff]
     tool = nvimdiff
+[difftool]
+    prompt = false
+[difftool "nvimdiff"]
+    cmd = nvim -d $LOCAL $REMOTE
 [merge]
     tool = nvimdiff
     conflictstyle = diff3
@@ -17,13 +21,13 @@
     keepBackup = false
     trustExitCode = false
     prompt = false
-[difftool]
-    prompt = false
+[mergetool "nvimdiff"]
+    ; layout = "MERGED / LOCAL,BASE,REMOTE"
+    ; layout = LOCAL,MERGED,REMOTE
+    layout = MERGED
 [core]
     editor = nvim
     pager = bat -p --color=always
-[mergetool "vimdiff"]
-    layout = LOCAL,MERGED,REMOTE
 [gpg]
 	format = ssh
 [commit]
@@ -33,6 +37,7 @@
 	br = branch
 	ci = commit
 	st = status
+    mt = mergetool
 [push]
 	protectedBranches = master main
 	forceWithLease = true
