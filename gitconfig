@@ -27,7 +27,7 @@
     layout = MERGED
 [core]
     editor = nvim
-    pager = bat -p --color=always
+    pager = bat -p -P --color=always
 [gpg]
 	format = ssh
 [commit]
