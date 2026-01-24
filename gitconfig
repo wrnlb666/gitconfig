@@ -22,9 +22,10 @@
     trustExitCode = false
     prompt = false
 [mergetool "nvimdiff"]
+    layout = "LOCAL,BASE,REMOTE / MERGED"
     ; layout = "MERGED / LOCAL,BASE,REMOTE"
     ; layout = LOCAL,MERGED,REMOTE
-    layout = MERGED
+    ; layout = MERGED
 [core]
     editor = nvim
     pager = ""
