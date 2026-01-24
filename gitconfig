@@ -1,9 +1,9 @@
 [user]
     email = wrnlb666@gmail.com
     name = wrnlb666
-	signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDVJyIm1BYBh/jpFuTnUWM2zb1RbXXnBWOFMfiLcY+yF wrnlb666@gmail.com"
+    signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDVJyIm1BYBh/jpFuTnUWM2zb1RbXXnBWOFMfiLcY+yF wrnlb666@gmail.com"
 [pull]
-	rebase = true
+    rebase = true
 [init]
     defaultBranch = main
 [https]
@@ -34,15 +34,15 @@
     log  = bat -pp --color=always
     show = bat -pp --color=always
 [gpg]
-	format = ssh
+    format = ssh
 [commit]
-	gpgsign = true
+    gpgsign = true
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
     mt = mergetool
 [push]
-	protectedBranches = master main
-	forceWithLease = true
+    protectedBranches = master main
+    forceWithLease = true
