@@ -2,7 +2,7 @@
 
 depends=(
     'delta' # git-delta
-    'bitwarden'
+    'bitwarden-desktop'
     'nvim'
     'lazygit'
     'git-lfs'
