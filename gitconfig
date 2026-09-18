@@ -40,5 +40,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[url "https://gh-proxy.org/https://github.com/"]
-	insteadOf = https://github.com/
